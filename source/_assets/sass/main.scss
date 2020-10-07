@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap');
+/* purgecss start ignore */
+@import "../../../node_modules/tailwindcss/base";
+@import "../../../node_modules/tailwindcss/components";
+/* purgecss end ignore */
+@import "../../../node_modules/tailwindcss/utilities";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.post p {
+  font-size: 1.2rem;
+}
+
+.post h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.post h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.post img {
+  padding: 2rem;
+}
+
+.post h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.post h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.post p {
+  padding-top: 1rem !important;
+}
+
+.post ul {
+  list-style-type: disc;
+}
+
+.post ol {
+  list-style-type: decimal;
+}
+
+@media screen and (max-width: 1000px) {
+  .post {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .post {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .post h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+
+  .post h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+
+  .post h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+
+  .post h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
+}
