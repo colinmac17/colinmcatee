@@ -4,7 +4,7 @@ title: Hello There
 date: 2020-10-06
 section: content
 time: 1
-description: New site.
+description: General Kenobi. Welcome to my new blog.
 site_url: https://colinmcatee.com/blog/hello-there
 tag: Thoughts
 slug: hello-there
