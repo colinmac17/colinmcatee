@@ -1,0 +1,12 @@
+{
+    "name": "colinmcatee/colinmcatee",
+    "authors": [
+        {
+            "name": "Colin McAtee",
+            "email": "colin.g.mcatee@gmail.com"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    }
+}
