@@ -10,7 +10,7 @@
 
 @section('body')
     <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-        <a href="/" class="text-blue-500 text-left">&larr; Go home</a>
+        <a href="/" class="text-blue-500 text-left mb-2 mr-2">&larr; Go home</a>
         <div class="text-center">
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 {{$page->title}}
