@@ -2,7 +2,7 @@
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="px-8 py-16">
+<div class="px-8 py-8">
   <h2 class="text-gray-900 text-sm text-center font-medium uppercase tracking-wide">Tech I develop with often.</h2>
   <ul class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
     <li class="col-span-1 flex shadow-sm rounded-md">

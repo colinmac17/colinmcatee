@@ -17,6 +17,7 @@
       </div>
     </div>
     @include('views.work')
+    @include('views.education')
     @include('views.tech')
     @include('views.blog')
     @include('views.footer')
