@@ -23,8 +23,8 @@
       </div>
       <div class="flex-1 flex items-center justify-between border-t border-r border-b border-gray-200 bg-white rounded-r-md truncate">
         <div class="flex-1 px-4 py-2 text-sm leading-5 truncate">
-          <a href="https://www.northwestern.edu/" target="_blank" class="text-gray-900 text-lg font-medium hover:text-gray-600 transition ease-in-out duration-150">Northwestern Coding Bootcamp</a>
-          <p class="text-gray-500 text-xs">Certificate (2017)</p>
+          <a href="https://www.northwestern.edu/" target="_blank" class="text-gray-900 text-lg font-medium hover:text-gray-600 transition ease-in-out duration-150">Northwestern University</a>
+          <p class="text-gray-500 text-xs">Coding Bootcamp (2017)</p>
         </div>
       </div>
     </li>
