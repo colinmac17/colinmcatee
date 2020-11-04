@@ -1,3 +1,4 @@
+    @if($posts->where('live', true)->count())
     <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
     <div class="absolute inset-0">
         <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -8,7 +9,7 @@
             My latest posts.
           </p>
         </div>
-        @foreach ($posts->chunk(3) as $chunk)
+        @foreach ($posts->where('live', true)->chunk(3) as $chunk)
             <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
             @foreach($chunk as $post)
                     <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -63,3 +64,4 @@
         @endforeach
     </div>
 </div>
+ @endif

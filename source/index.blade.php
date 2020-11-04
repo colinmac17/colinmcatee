@@ -6,7 +6,7 @@
         <div class="space-y-12">
           <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h1 class="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl">Colin McAtee</h1>
-            <p class="text-xl leading-7 text-gray-500">Software Engineer @ <a class="text-blue-500" href="https://activecampaign.com">ActiveCampaign</a> | Founder of <a class="text-blue-500" href="https://productiverecruit.com">Productive Recruit</a></p>
+            <p class="text-xl leading-7 text-gray-500">Software Engineer @ <a class="text-blue-500" href="https://activecampaign.com">ActiveCampaign</a> | Creator of <a class="text-blue-500" href="https://productiverecruit.com">Productive Recruit</a></p>
           </div>
             <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             <li>
@@ -36,6 +36,6 @@
         </div>
       </div>
     </div>
-{{--    @include('views.blog')--}}
+    @include('views.blog')
     @include('views.footer')
 @endsection
