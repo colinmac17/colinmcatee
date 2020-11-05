@@ -15,7 +15,7 @@ pagination:
             <p class="mt-2 max-w-md mx-auto text-lg text-gray-500 md:mt-3 md:max-w-3xl">
               Writing about web development, building side projects, careers, and growing my boostrapped company.
             </p>
-            <a type="button" href="/" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded">
+            <a href="/" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded">
               More about me &rarr;
             </a>
             @include('views.social')

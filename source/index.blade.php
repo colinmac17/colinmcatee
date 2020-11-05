@@ -11,7 +11,7 @@
             <p class="mt-2 max-w-md mx-auto text-lg text-gray-500 md:mt-3 md:max-w-3xl">
               I really love making stuff with code and learning new technologies.
             </p>
-            <a type="button" href="/blog" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded">
+            <a href="/blog" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded">
               Read latest posts &rarr;
             </a>
             @include('views.social')
