@@ -15,9 +15,11 @@ pagination:
             <p class="mt-2 max-w-md mx-auto text-lg text-gray-500 md:mt-3 md:max-w-3xl">
               Writing about web development, building side projects, careers, and growing my boostrapped company.
             </p>
-            <a href="/" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded">
-              More about me &rarr;
-            </a>
+            <span class="inline-flex rounded-md shadow-sm">
+              <a href="/" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">
+                More about me &rarr;
+              </a>
+            </span>
             @include('views.social')
           </div>
         </div>
