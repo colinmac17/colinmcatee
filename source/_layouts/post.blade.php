@@ -10,7 +10,7 @@
 
 @section('body')
     <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
-        <a href="/" class="text-blue-500 text-left mb-2 mr-2">&larr; Go home</a>
+        <a href="/blog" class="text-blue-500 text-left mb-2 mr-2">&larr; Go back</a>
         <div class="text-center">
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 {{$page->title}}
@@ -19,8 +19,9 @@
                 By {{ $page->author }} • {{ date('F j, Y', $page->date) }}
             </p>
             <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium leading-5 bg-blue-700 text-white">
-                {{$page->tag}}
+                {{$page->category}}
             </span>
+            @include('views.add_to_many')
 {{--            <div class="mt-5 max-w-2xl mx-auto sm:flex sm:justify-center md:mt-8">--}}
 {{--                <img class="h-auto w-auto" src="{{$page->og_image}}" alt="" />--}}
 {{--            </div>--}}

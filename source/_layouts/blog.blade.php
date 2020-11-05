@@ -5,34 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
-        <meta name="description" content="{{ $page->description }}">
-        <meta name="og:title" content="{{ $page->title }}"/>
+        <meta name="description" content="{{ $page->blog_description }}">
+        <meta name="og:title" content="{{ $page->blog_title }}"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="{{ $page->site_url }}"/>
+        <meta property="og:url" content="{{ $page->site_url }}/blog"/>
         <meta property="og:site_name" content="Colin McAtee"/>
         <meta name="og:image" content="{{ $page->og_image }}"/>
-        <meta property="og:description" content="{{ $page->description }}"/>
-        <meta name="twitter:description" content="{{ $page->description }}"/>
+        <meta property="og:description" content="{{ $page->blog_description }}"/>
+        <meta name="twitter:description" content="{{ $page->blog_description }}"/>
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@colin_mcatee"/>
         <meta name="twitter:creator" content="@colin_mcatee"/>
-        <meta name="twitter:title" content="{{ $page->title }}"/>
-        <meta name="twitter:url" content="{{ $page->site_url }}"/>
+        <meta name="twitter:title" content="{{ $page->blog_title }}"/>
+        <meta name="twitter:url" content="{{ $page->site_url }}/blog"/>
         <meta name="theme-color" content="#1D3557"/>
         <meta content="{{ $page->og_image }}" property="og:image">
         <meta content="{{ $page->og_image }}" name="twitter:image:src">
         <meta content="summary_large_image" name="twitter:card">
         <meta content="1200" name="og:image:width">
         <meta content="630" name="og:image:height">
-        <meta content="{{ $page->title }}" property="og:title">
-        <title>{{ $page->title }}</title>
+        <meta content="{{ $page->blog_title }}" property="og:title">
+        <title>{{ $page->blog_title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="https://cmcatee.s3.amazonaws.com/favicon-32x32.png">
         <script async defer data-domain="colinmcatee.com" src="https://plausible.io/js/plausible.js"></script>
-        <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
         @yield('head')
     </head>
     <body>
