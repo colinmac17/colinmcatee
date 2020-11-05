@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
-        <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <meta name="og:title" content="{{ $page->title }}"/>
         <meta property="og:type" content="website"/>
@@ -30,6 +29,10 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="https://cmcatee.s3.amazonaws.com/favicon-32x32.png">
         <script async defer data-domain="colinmcatee.com" src="https://plausible.io/js/plausible.js"></script>
+        <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         @yield('head')
     </head>
     <body>

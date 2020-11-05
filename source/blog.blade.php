@@ -4,6 +4,7 @@ pagination:
   perPage: 9
 ---
 @extends('_layouts.blog')
+@section('body')
     <div class="bg-white">
       <div class="mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-12 text-center">
         <div class="space-y-12">
@@ -37,10 +38,10 @@ pagination:
                                         <div class="flex-1">
                                             <p class="text-sm leading-5 font-medium text-blue-600">
                                                 <a href="#" class="hover:underline">
-                                                    {{$post->tag}}
+                                                    {{$post->category}}
                                                 </a>
                                             </p>
-                                            <a href="/blog/{{$post->slug}}" class="block">
+                                            <a href="/blog/{{strtolower($post->category)}}/{{$post->slug}}" class="block">
                                                 <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
                                                     {{$post->title}}
                                                 </h3>
@@ -94,3 +95,4 @@ pagination:
                 </div>
             </nav>
 @include('views.footer')
+@endsection

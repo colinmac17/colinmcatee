@@ -5,20 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="referrer" content="always">
-        <link rel="canonical" href="{{ $page->getUrl() }}">
-        <meta name="description" content="{{ $paoge->blog_description }}">
+        <meta name="description" content="{{ $page->blog_description }}">
         <meta name="og:title" content="{{ $page->blog_title }}"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="{{ $page->site_url }}"/>
+        <meta property="og:url" content="{{ $page->site_url }}/blog"/>
         <meta property="og:site_name" content="Colin McAtee"/>
         <meta name="og:image" content="{{ $page->og_image }}"/>
         <meta property="og:description" content="{{ $page->blog_description }}"/>
-        <meta name="twitter:description" content="{{ $paoge->blog_description }}"/>
+        <meta name="twitter:description" content="{{ $page->blog_description }}"/>
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@colin_mcatee"/>
         <meta name="twitter:creator" content="@colin_mcatee"/>
         <meta name="twitter:title" content="{{ $page->blog_title }}"/>
-        <meta name="twitter:url" content="{{ $page->site_url }}"/>
+        <meta name="twitter:url" content="{{ $page->site_url }}/blog"/>
         <meta name="theme-color" content="#1D3557"/>
         <meta content="{{ $page->og_image }}" property="og:image">
         <meta content="{{ $page->og_image }}" name="twitter:image:src">

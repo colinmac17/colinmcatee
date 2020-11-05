@@ -12,7 +12,9 @@ return [
     'collections' => [
          'posts' => [
             'author' => 'Colin McAtee',
-            'path' => 'blog/{filename}',
+            'path' => function($page){
+                return 'blog/' . strtolower($page->category) . '/' . $page->slug;
+            },
             'sort' => '-date'
         ],
     ],

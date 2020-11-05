@@ -19,7 +19,7 @@
                 By {{ $page->author }} • {{ date('F j, Y', $page->date) }}
             </p>
             <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium leading-5 bg-blue-700 text-white">
-                {{$page->tag}}
+                {{$page->category}}
             </span>
             @include('views.add_to_many')
 {{--            <div class="mt-5 max-w-2xl mx-auto sm:flex sm:justify-center md:mt-8">--}}
