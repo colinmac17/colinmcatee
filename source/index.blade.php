@@ -9,7 +9,7 @@
               Hi, I'm Colin McAtee.
             </h2>
             <p class="mt-2 max-w-md mx-auto text-lg text-gray-500 md:mt-3 md:max-w-3xl">
-              I really love making stuff with code and learning new technologies.
+              I love making stuff with code. I'm openly sharing my journey bootsrapping SaaS products.
             </p>
 {{--            <span class="inline-flex rounded-md shadow-sm">--}}
 {{--              <a href="/blog" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150">--}}
