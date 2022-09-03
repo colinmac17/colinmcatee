@@ -32,7 +32,9 @@
         <link rel="icon" type="image/png" sizes="16x16"
             href="/assets/images/favicon-16x16.png">
         @if($page->production)
-            <script src="https://cdn.usefathom.com/script.js" data-site="MLAQMQCX" defer></script>
+            <!-- Fathom - beautiful, simple website analytics -->
+            <script src="https://cdn.usefathom.com/script.js" data-site="CAJXZETM" defer></script>
+            <!-- / Fathom -->
         @endif
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
