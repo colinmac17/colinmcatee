@@ -9,6 +9,7 @@ mix.jigsaw()
     .css('source/_assets/css/main.css', 'css', [
         require('postcss-import'),
         require('tailwindcss'),
+        require('autoprefixer'),
     ])
     .options({
         processCssUrls: false,

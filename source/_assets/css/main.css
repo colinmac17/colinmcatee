@@ -1,3 +1,57 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+[x-cloak] { display: none !important; }
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#blogPost iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#blogPost h2 {
+    @apply text-2xl font-bold;
+}
+
+#blogPost h3 {
+    @apply text-xl font-semibold;
+}
+
+#blogPost p {
+    @apply text-lg leading-relaxed;
+}
+
+#author p {
+    @apply text-sm leading-relaxed;
+}
+
+#blogPost a {
+    @apply text-lg text-indigo-500;
+}
+
+#author a {
+    @apply text-sm text-indigo-500;
+}
+
+#blogPost ol {
+    @apply text-lg list-decimal ml-5;
+}
+
+#blogPost ul {
+    @apply text-lg list-disc ml-5;
+}
