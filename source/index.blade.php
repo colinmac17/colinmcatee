@@ -1,7 +1,7 @@
 ---
 title: "Colin McAtee"
 url: "https://colinmcatee.com"
-description: "Personal website and blog for ProductiveRecruit founder, and software engineer Colin McAtee"
+description: "Personal blog for ProductiveRecruit founder, and software engineer Colin McAtee"
 authorImage: "https://prodrecruit-assets.s3.amazonaws.com/site-assets/colin-headshot.webp"
 ogImage: "https://colinmcatee.com/assets/images/cm-meta-img2.png"
 ---
