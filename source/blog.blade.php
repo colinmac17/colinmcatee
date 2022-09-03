@@ -3,7 +3,7 @@ title: "Blog • Colin McAtee"
 url: "https://colinmcatee.com/blog"
 description: "Articles on building and growing a SaaS product"
 authorImage: "https://prodrecruit-assets.s3.amazonaws.com/site-assets/colin-headshot.webp"
-ogImage: "/assets/images/cm-meta-img.png"
+ogImage: "/assets/images/cm-meta-img2.png"
 ---
 
 @extends('_layouts.main')
